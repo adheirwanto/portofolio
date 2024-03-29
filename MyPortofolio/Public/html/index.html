@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galih | My-personal-web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="font-poppins ">
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .sizex{
+                width: 20rem;
+            }
+            .font-poppins{
+                font-family: 'poppins',sans-serif;
+            }
+            .p-15{
+                padding: 1.5rem;
+            }
+            .pl-5{
+                padding-left: 1.5rem;
+            }
+            .ml-30{
+                margin-left: 2.0rem;
+            }
+        }
+        </style>
+    <!-- Navbar start -->
+    <nav class="font-semibold space-x-3 bg-gray-100 border-solid border-black rounded-full text-end p-3   
+    m-2 pr-8 border-2 fixed top-0 w-full opacity-90
+    ">
+        <div class="max-md:hidden space-x-3">
+            <a href="#home" class="hover:text-orange-500 hover:underline">Home</a>
+            <a href="#about" class="hover:text-orange-500 hover:underline">About</a>
+            <a href="portofolio" class="hover:text-orange-500 hover:underline">Portofolio</a>
+            <a href="#contact" class="hover:text-orange-500 hover:underline">Contact</a>
+        </div>
+        <button class="md:hidden hover:text-orange-500">
+            <a href="mobile-btn.html"><i data-feather="menu"></i></a>
+        </button>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Navbar mobile-btn start -->
+    <nav>
+        <div class="">
+
+        </div>
+    </nav>
+    <!-- Navbar mobile-btn end -->
+    <!-- Header section start -->
+    <div id="home"class="pt-20 " style="background-image: linear-gradient(black,black); background-position: fixed; background-size: cover;"></div>
+    <header class="lg:flex text-white p-15"style="background-image: linear-gradient(black,black,rgb(45, 44, 44));">
+        <div id="Judul-nama"class="lg:pt-20">
+            <h3 class="text-1xl pl-3 font-bold">Hi Im Front-end Developer </h3>
+            <h1 class="text-4xl font-bold pl-3 font-sans"><i class="text-yellow-500 ">GALIH NUGRAHA</i></h1>
+            <h4 class="pt-3 pl-3 font-sans pr-3 pb-10 max-md:font-poppins ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Architecto a veniam rem quis quam cumque quas dignissimos, tempora neque commodi numquam sint fugiat amet at odit voluptatibus nesciunt ipsum aut?
+            </h4>
+            <a class="" href=""><button class=" ml-5 border-solid border-2 border-red-600 bg-red-600 rounded-md p-3  font-poppins hover:bg-red-700 hover:border-solid hover:border-2 hover:border-white flex">Hire Me <i class="pl-2"data-feather="send"></i></button></a>
+            <div id="about" class="p-15"></div>
+        </div>
+        
+    </header>
+    <!-- Header section end -->
+    <!-- About start -->
+    <section id="ab">
+        <h1 class="ml-3 font-semibold text-2xl p-15 ">
+            About Me
+        </h1>
+        <hr class="ml-9 mr-8">
+        <h2 class="ml-3 font-semibold text-1xl p-15">My Programming Language :</h2>
+        <div class="flex m-5 ml-8">
+            <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" alt="HTML5" class="w-9 h-9 mr-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png" alt="CSS3" class="w-8 h-8 mr-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript" class="w-8 h-8 mr-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png" alt="PHP" class="w-8 h-8 object-contain">
+            <img class="w-30 h-10 ml-4"src="../assets/logo/Python_logo_and_wordmark.svg.png" alt="python">
+        </div>
+    </section>
+    <!-- About end -->
+    <script src="../script/main.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="bg-black text-center text-gray-300 p-5">
+        <p>&copy; 2024 Galih Akhtarian Nugraha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
